@@ -51,6 +51,8 @@ function palindromeCheck(str) {
   console.log('count', count);
   if(oddCount <= 1) {
     console.log('oddCount: ', oddCount, ' palindrome: true');
+  } else {
+    console.log('oddCount: ', oddCount, ' palindrome: false');
   }
 
 
@@ -58,4 +60,5 @@ function palindromeCheck(str) {
 }
 
 
-palindromeCheck('acecarr', );
+//palindromeCheck('acecarr', );
+palindromeCheck('north', );
